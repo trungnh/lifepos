@@ -1,0 +1,264 @@
+body {
+    font-family: "Lucida Grande",Arial;
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: medium none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+img{
+    border:0px;
+}
+#page {
+    /*margin: 100px auto 0 auto;*/
+    width:1000px;
+    padding-top: 30px;
+}
+#introduce{
+    float:left;
+    width: 520px;
+    /*margin-right:50px*/
+    margin-left:50px
+}
+#form{
+    float:right;
+    margin-right:0px;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 150px;*/
+    position: relative;
+    width: 380px;
+}
+.footer-inside{
+    padding:12px 0 0 0;
+    font-size:12px;
+    color:#444444;
+    margin:0 auto;
+}
+.fl {
+    float: left !important;
+}
+#p-footer a{
+    margin:0 5px;
+    font-weight:bold;
+    /*font-size: 12px;*/
+}
+
+a, a:active {
+    color: #476DA4;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline
+}
+#top {
+    /*background-image: url("../images/login/login.png");*/
+    background-position: 0 0;
+    height: 16px;
+    text-align: center;
+    line-height:17px;
+    margin: 0 0 1.2em;
+
+}
+#top img
+{
+    position: relative;
+    top: 45px;
+}
+#form_field_username, #form_field_password, #form_field_password_confirm {
+    height: 50px;
+}
+#form_field_submit {
+    height: 60px;
+}
+#login_form {
+}
+#bottom {
+    background-image: url("../images/login/login.png");
+    background-position: left bottom;
+    color: #FFFFFF;
+    font-size: 0.7em;
+    font-weight: normal;
+    width: 380px;
+}
+#bottom td{
+    height: 30px;
+    padding: 3px 20px 0;
+    vertical-align: top;
+}
+#bottom a{
+    color:#8ac;
+    text-decoration:none;
+}
+#bottom a:hover{
+    color:#fff;
+}
+#bottom #left{
+    text-align:left;
+}
+#bottom #right{
+    text-align:right;
+}
+#welcome_message {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.form_field_label {
+    /*background-image: url("../images/login/login.png");*/
+    background-position: left -140px;
+    color: #555555;
+    padding-left: 20px;
+    width: 90px;
+}
+.form_field {
+    /*background-image: url("../images/login/login.png");*/
+    background-position: right -140px;
+    padding-left: 10px;
+    width: 280px;
+}
+#submit_button {
+    /*background-image: url("../images/login/login.png");*/
+    background-position: right -240px;
+    padding-left: 10px;
+    width: 280px;
+}
+#submit_button input {
+    cursor: pointer;
+    /*padding: 10px 0;*/
+    text-align: center;
+    width: 100px;
+    color:#fff;
+    background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
+    background-color: #4D90FE;
+    border: 1px solid #3079ED;
+    color: #FFFFFF;
+}
+#submit_button:hover {
+    /*background-image: url("../images/login/login.png");*/
+    background-position: right -300px;
+}
+input {
+    /*background: none repeat scroll 0 0 transparent;*/
+    border: medium none;
+    font-size: 1em;
+    width: 235px;
+    height: 32px;
+    border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+.top_message {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    color: #999999;
+    margin: auto;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.top_message_error {
+    /*background: none repeat scroll 0 0 #FFCCCC;*/
+    /*border-bottom: 1px solid #CC4444;*/
+    /*border-top: 1px solid #CC4444;*/
+    color: #880000;
+    margin: auto;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    /*width: 100%;*/
+}
+.product_other{
+    height:60px;
+}
+.lifepos_logo{
+    height:50px;
+}
+.lifetek_logos {
+    margin: 10px auto 0 auto;
+    width:1000px;
+}
+.lifepos_slogan_img{
+    width:75px;
+}
+.lifepos_slogan_text_bold{
+    color:black;
+    font-size:16px;
+    font-weight:bold;
+}
+.lifepos_slogan_text{
+    color:black;
+    font-size:16px;
+}
+.lifepos_slogan_padding{
+    padding-left:15px;
+}
+.lifepos_slogan_tr_padding{
+    padding-top:7px;
+}
+.clear{
+    clear:both;
+}
+.lifetek_product_logos{
+    text-align:center;
+}
+.lifepos-header-bar{
+    background:none repeat scroll 0 0 #F5F5F5;
+    border-bottom:1px solid #E5E5E5;
+    height:71px;
+    overflow:hidden;
+}
+.header
+.logo{
+    float: left;
+    margin: 17px 0 0;
+}
+.header
+.signup-button{
+    float:right;
+    margin: 22px 0 0;
+}
+.g-button-red{
+    background-color:#D14836;
+    background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+    border: 1px solid transparent;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.g-button{
+    display: inline-block;
+    font-size:11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px 2px 2px 2px;
+    height: 35px;
+    line-height:30px;
+    padding:0 27px;
+    margin-right:250px;
+}
+.sigin-box{
+    background:none repeat scroll 0 0 #F5F5F5;
+    border:1px solid #E5E5E5;
+    padding:20px 25px 15px;
+}
+.signin-box input[type="submit"]{
+    font-size: 13px;
+    height: 32px;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    border: 1px solid #4D90FE;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}

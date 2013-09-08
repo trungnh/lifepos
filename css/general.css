@@ -1,0 +1,352 @@
+/* Home Page */
+#home_module_list {
+	/*width: 960px;*/
+	/*margin-top: 20px;*/
+	/*min-height: 550px;*/
+	/*clear: both;*/
+}
+
+#home_module_list .module_item {
+	padding: 10px;
+	width: 270px;
+	margin: 10px;
+	float: left;
+}
+
+#home_module_list .module_item a {
+	width: 250px;
+	height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #1E5A96;
+	display: block;
+}
+
+#home_module_list .module_item a img {
+	float: left;
+}
+
+#home_module_list .module_item a span {
+	line-height: 48px;
+	margin-left: 10px;
+}
+
+#home_module_list .module_item > span {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+button {
+    background: url("../images/pieces/btnUpdate.png") no-repeat top left transparent;
+    color: #FFFFFF;
+    display: block;
+    height: 24px;
+	border: 0px;
+	width: 70px;
+	margin-top: 5px;
+    text-align: center;
+}
+
+div#dbBackup {
+	text-align: right;
+	height: 42px;
+}
+
+div#dbBackup a.dbBackup {
+	background: #FFFFFF url("../images/pieces/dbBackup.png") top left no-repeat;
+	padding: 5px 0px 5px 42px;
+	line-height: 42px;
+	font-size: 20px;
+	color: #1E5A96;
+}
+
+/* FieldSets - Config Page & Pop-ups */
+fieldset {
+	border: 1px solid #DDDDDD;
+}
+
+fieldset > legend {
+	padding: 5px;
+	margin-left: 10px;
+}
+
+fieldset div#required_fields_message {
+	color: #FF0000;
+	font-size: 12px;
+}
+
+fieldset div.field_row {
+	margin: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+fieldset div.field_row label {
+	width: 175px;
+	padding: 5px;
+	float: left;
+}
+
+fieldset div.field_row div.form_field input {
+	padding: 5px;
+	line-height: 20px;
+	border: 1px solid #CCCCCC;
+}
+
+fieldset div.field_row div.form_field input[type='checkbox'] {
+	margin-top: 14px;
+	border: 1px solid #CCCCCC;
+}
+
+fieldset div.field_row div.form_field select {
+	padding: 5px;
+	line-height: 20px;
+	border: 1px solid #CCCCCC;
+}
+
+fieldset div.field_row div.form_field textarea {
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+}
+
+fieldset input[type='submit'] {
+	padding: 10px;
+	line-height: 30px;
+	margin: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #FFFFFF;
+	background: #1E5A96;
+	border: 1px solid #EEEEEE;
+}
+
+.column
+{
+    float: left;
+    margin: 5px;
+}
+
+.column li
+{
+ 	padding-bottom: 5px;   
+}
+
+.cleared
+{
+  clear: left;   
+}
+
+#content_area_wrapper {
+    /*background: #1E5A96 url("../images/customer/customer_r2_c1.png") -10px 0  no-repeat;*/
+    /*height: auto;*/
+    /*margin: auto;*/
+    /*width: 1000px;*/
+    /*width: 90%;*/
+    margin: auto 100px;
+    /*padding: 10px 0px 0px 0px;*/
+    min-height: 550px;
+    /*float: right;*/
+
+}
+
+#content_area {
+
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 10px 10px 10px;
+	background: #FFFFFF;
+}
+label.required
+{
+	color:red;
+}
+ 
+#feedback_bar{
+	display: none;
+    font-weight: bold;
+    left: 235px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    width: 700px;
+}
+
+.warning_message,
+.error_message,
+.success_message {
+	line-height: 30px;
+	padding: 10px;
+}
+
+
+.warning_message
+{
+    background-color: #FBEA6E;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error_message
+{
+    background-color: #f68383;
+    border: 1px solid #da3232;
+}
+
+.success_message
+{
+    background-color: #E1FFDD;
+    border: 1px solid #2CA71C;
+}
+
+#pagination{
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+}
+#pagination a{
+color:#ccc;
+}
+#pagination strong{
+color:#000;
+background:#ccc;
+padding:0px 2px;
+}
+
+.clearfix:after 
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix {	display: block; }
+* html .clearfix { height: 1%; }
+
+#pagination {
+    padding : 3px;
+	height : 24px;
+	/*background-image : url("../images/pieces/table_body.png");*/
+    background-position : 0px -590px;
+}
+
+/* IE7 Pagination */
+#pagination{
+    *padding: 3px;
+	*height: 24px;
+	*background-image: url("../images/pieces/table_body.png");
+    *background-position: 0px -590px;
+}
+
+/* IE7 Suspend & Cancel */
+#suspend_cancel {
+	*padding-top: 0px;
+	*margin-top: 10px;
+	*margin-bottom: 10px;
+}
+
+#suspend_cancel > #suspend{ 
+	*float: left; 
+}
+
+#suspend_cancel > #cancel{ 
+	*float: left; 
+	width: 40px;
+}
+
+/* IE7 Tables */
+#register_items_container #reg_item_search form #new_item_button_register {
+	*margin-top: -30px;
+}
+
+#over_all_sale_container #overall_sale {
+	*margin-left: 5px;
+}
+
+#show_suspended_sales_button {
+    background: url("../images/pieces/view_suspended.png") no-repeat scroll right center transparent;
+    font-size: 0.8em;
+    height: 49px;
+    line-height: 0;
+    text-align: center;
+    width: 230px;
+}
+
+#show_suspended_sales_button a div {
+	font-size: 73%;
+    padding-top: 5px;
+}
+
+/* IE8 Pagination */
+#pagination {
+    padding /*\**/: 3px\9;
+	height /*\**/: 24px\9;
+	background-image /*\**/: url("../images/pieces/table_body.png")\9;
+    background-position /*\**/: 0px -590px\9;
+}
+
+/* Safary Webkit based browsers hacks */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+	#pagination{
+		padding: 3px;
+		height: 24px;
+		background-image: url("../images/pieces/table_body.png");
+		background-position: 0px -590px;
+	}
+}
+
+#pagination {
+    padding : 3px \0/;
+	height : 24px \0/;
+	background-image : url("../images/pieces/table_body.png") \0/;
+    background-position : 0px -590px \0/;
+}
+
+/* IE9 Pagination */
+#pagination {
+    padding : 3px\9;
+	height : 24px\9;
+	/*background-image : url("../images/pieces/table_body.png");*/
+    background-position : 0px -590px\9;
+}
+
+.cumulative_label
+{
+	font-size:11px;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
+.ui-autocomplete 
+{
+	max-height: 250px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 20px;
+}
+
+* html .ui-autocomplete {
+	height: 250px;
+}
+.menu-item-right{
+    float: right;
+}
+.main-item{
+    /*width: 100%;
+    border: 1px solid #D9D9D9;
+    boder-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);*/
+}
+.main-pos{
+    padding-bottom: 5px;
+}

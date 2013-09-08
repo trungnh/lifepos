@@ -1,0 +1,135 @@
+#menubar {
+    margin: auto auto auto 5px;
+    float: left;
+    /*width: 1000px;*/
+    /*background-image: url("../images/header/header_empty.png");*/
+    background-position: -10px -2px;
+    padding-top: 5px;
+}
+#menubar_container {
+	width:auto;
+}
+.menu_item {
+    text-align: center;
+    vertical-align: top;
+    width: 80px;
+    border:1px solid #D9D9D9;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    margin-top: 3px;
+}
+.menu_item:hover{
+    border-color: #999999;
+}
+
+.menu_item a {
+    /*background-image: url("../images/header/header.png");*/
+    /*background-position: -10px -2px;
+    border: medium none;*/
+    /*color: #FFFFFF;*/
+    /*display: block;*/
+    font-size: 10px;
+    /*padding: 70px 0 3px;*/
+    /*width: 72px;*/
+    /*display: block;*/
+}
+.menu_item img {
+    border: medium none;
+    display: block;
+    padding-left:15px;
+}
+.menu_item_home {
+    height: 70px;
+    padding: 18px 10px 0 0;
+    text-align: center;
+    vertical-align: top;
+    width: 190px;
+}
+.menu_item_home a {
+    background: none repeat scroll 0 0 transparent;
+    margin: auto;
+    padding: 0;
+    width: 170px;
+}
+/*.menu_item_customers a {
+    background-position: -209px -2px;
+}*/
+.menu_item_customers a:hover {
+    background-position: -209px -112px;
+}
+.menu_item_items a {
+    background-position: -289px -2px;
+}
+.menu_item_items a:hover {
+    background-position: -289px -112px;
+}
+.menu_item_item_kits a {
+    background-position: -369px -2px;
+}
+.menu_item_item_kits a:hover {
+    background-position: -369px -112px;
+}
+.menu_item_suppliers a {
+    background-position: -449px -2px;
+}
+.menu_item_suppliers a:hover {
+    background-position: -449px -112px;
+}
+.menu_item_reports a {
+    background-position: -529px -2px;
+}
+.menu_item_reports a:hover {
+    background-position: -529px -112px;
+}
+.menu_item_receivings a {
+    background-position: -609px -2px;
+}
+.menu_item_receivings a:hover {
+    background-position: -609px -112px;
+}
+.menu_item_sales a {
+    background-position: -689px -2px;
+}
+.menu_item_sales a:hover {
+    background-position: -689px -112px;
+}
+.menu_item_employees a {
+    background-position: -769px -2px;
+}
+.menu_item_employees a:hover {
+    background-position: -769px -112px;
+}
+.menu_item_giftcards a {
+    background-position: -849px -2px;
+}
+.menu_item_giftcards a:hover {
+    background-position: -849px -112px;
+}
+.menu_item_config a {
+    background-position: -929px -2px;
+}
+.menu_item_config a:hover {
+    background-position: -929px -112px;
+}
+.menu-item-left{
+
+    padding: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius:3px 3px 3px 3px;
+}
+.menu_item span{
+    color:#4D4D4D;
+    font-weight:bold;
+}
+#menu-top{
+    background: none repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #E5E5E5;
+    height: 44px;
+    width: 100%;
+}
+#menu-right{
+    float: right;
+    padding-top: 5px;
+    padding-right: 5px;
+}

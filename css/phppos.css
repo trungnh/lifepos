@@ -1,0 +1,58 @@
+body {
+    font-family: "Lucida Grande",Arial;
+    margin: auto;
+    padding: 0;
+    
+}
+table{
+	border-collapse: collapse;
+	width:100%;
+}
+
+tbody{
+    border-collapse: collapse;
+}
+
+tr{
+}
+
+td {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	text-decoration:none;        
+}
+form{
+}
+
+.top_message{
+	background:#fff;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	color:#999;
+	padding:20px 0;
+	position:absolute;
+	top:0;
+	margin:auto;
+	width:100%;
+}
+
+.top_message_error{
+	background:#fcc;
+	border-bottom:1px solid #c44;
+	border-top:1px solid #c44;
+	color:#800;
+	padding:20px 0;
+	position:absolute;
+	top:0;
+	margin:auto;
+	width:100%;
+}
+#search_form{
+	/*background:url("../images/pieces/search.png") no-repeat scroll right center transparent;*/
+}
+
+

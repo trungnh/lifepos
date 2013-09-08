@@ -1,0 +1,5 @@
+* Added Track Cash in register option in sales config to keep track of opening and closing cash amounts
+* Can now export customers, items, suppliers, giftcards, and suppliers to excel
+* Added cleanup button to customers and items section to remove account_number/item_number of deleted customers/items
+* Reverted to using .csv for all exports
+* Bug Fixes
